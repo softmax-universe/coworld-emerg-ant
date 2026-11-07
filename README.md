@@ -8,9 +8,9 @@ begins with a winged queen and seven workers; eight copies wait as dormant brood
 > **Version note:** `main` contains the current GV57 typed-pheromone rules on the
 > restored pre-NAnts engine. The
 > NAnts-style v0.6 game remains available on the
-> [`nants-v0.6`](https://github.com/Metta-AI/coworld-emerg-ant/tree/nants-v0.6)
+> [`nants-v0.6`](https://github.com/softmax-universe/coworld-emerg-ant/tree/nants-v0.6)
 > branch and the
-> [`v0.6.0-nants`](https://github.com/Metta-AI/coworld-emerg-ant/tree/v0.6.0-nants)
+> [`v0.6.0-nants`](https://github.com/softmax-universe/coworld-emerg-ant/tree/v0.6.0-nants)
 > tag.
 
 Ants choose scout, food, danger, or home pheromones and an emission rate from
@@ -46,7 +46,7 @@ observation labels.
 - Version: `emerg-ant:0.9.1`
 - Coworld ID: [`cow_db246875-b62a-4ac8-ae63-8431dc8c9315`](https://softmax.com/observatory/v2/coworlds/cow_db246875-b62a-4ac8-ae63-8431dc8c9315)
 - Status: canonical and hosted-smoke certified
-- Source: [Metta-AI/coworld-emerg-ant](https://github.com/Metta-AI/coworld-emerg-ant)
+- Source: [softmax-universe/coworld-emerg-ant](https://github.com/softmax-universe/coworld-emerg-ant)
 - Full GV57 replay: [watch two colonies forage, hatch brood, and race to sixteen deliveries](https://api.observatory.softmax-research.net/v2/coworlds/replays/static/cow_db246875-b62a-4ac8-ae63-8431dc8c9315/sha256%3A40ac9c373465b19bb96e782cb301ea1e4fa0130471e2f40643c83e5cea6e471c/index.html?replay=https%3A%2F%2Fsoftmax-public.s3.amazonaws.com%2Freplays%2Fa115aef2-f3e7-4ee5-9a12-d40abbd6e427.replay&v=2)
 - Previous hatch replay: [watch food return at tick 226 activate a ninth ant](https://api.observatory.softmax-research.net/v2/coworlds/replays/static/cow_f6b8c5fc-9d3f-434e-a15f-1dbbd84322c8/sha256%3Afec79a0c3a6d3d254e06cf27ceed961fe0cf437842d22e73379c39cba0a7c453/index.html?replay=https%3A%2F%2Fsoftmax-public.s3.amazonaws.com%2Freplays%2F1437f9f0-68cd-4e82-8799-3510d6935dcc.replay&v=2)
 

@@ -2,7 +2,7 @@
 
 Both the player endpoints (`/player`, POV observation streams) and the
 global/spectator endpoint speak
-[Sprite v1](https://github.com/Metta-AI/bitworld/blob/master/docs/sprite_v1.md).
+[Sprite v1](https://github.com/softmax-universe/bitworld/blob/master/docs/sprite_v1.md).
 This document lists everything CTF adds or changes relative to that base
 document; anything not mentioned here matches Sprite v1 exactly. Game
 semantics — mechanics, sprite labels, tuning defaults — live in

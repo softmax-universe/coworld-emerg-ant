@@ -2,9 +2,7 @@ name: Publish images
 
 # Builds and pushes the game and baseline-bot images to GHCR.
 # Manual (workflow_dispatch) or on a version tag, so ordinary pushes to main
-# do not republish images. The manifest references:
-#   ghcr.io/metta-ai/coworld-emerg-ant           (game)
-#   ghcr.io/metta-ai/coworld-emerg-ant-baseline  (baseline bot)
+# do not republish images.
 on:
   workflow_dispatch:
   push:
@@ -35,7 +33,7 @@ jobs:
       - id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/metta-ai/${{ matrix.image }}
+          images: ghcr.io/softmax-universe/${{ matrix.image }}
           tags: |
             type=raw,value=latest
             type=ref,event=tag
